@@ -2,7 +2,7 @@ const winston = require("winston");
 
 require("winston-papertrail").Papertrail;
 var logger = new winston.transports.Papertrail({
-  host: "logs6.papertrailapp.com",
+  host: "PAPERTRAILHOST",
   port: 45058,
   handleExceptions: true
 });

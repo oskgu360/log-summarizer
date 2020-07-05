@@ -1,5 +1,5 @@
 /*
- * API including three endpoints to produce logs to papertrail
+ * API including three endpoints to produce some accesslogs to papertrail
  */
 
 const express = require("express");
